@@ -1,19 +1,16 @@
-import React from 'react';
-import styled from 'styled-components';
+import React, { Fragment } from 'react';
+import Header from '../Header/Index';
 
-const Header = styled.header`
-	width: 100%;
-	height: 6rem;
-	background-color: #282c34;
-	color: white;
-`;
-
-function App() {
+const App = () => {
 	return (
-		<Header>
-			<h2>this is the header</h2>
-		</Header>
+		<Fragment>
+			<Header />
+			{/* 
+				<Body />
+				<Footer /> 
+			*/}
+		</Fragment>
 	);
-}
+};
 
 export default App;
