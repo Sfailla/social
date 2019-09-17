@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { MainBG, GreenBlue } from '../Shared/Styles';
+
 const BannerStyle = styled.div`
 	width: 100%;
 	height: calc(100% - 12rem);
-	background-color: #282c34;
-
+	${MainBG};
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -17,7 +18,7 @@ const Title = styled.h1`
 	font-size: 3.5rem;
 	font-family: Audiowide;
 	letter-spacing: 2px;
-	color: #34c7c1;
+	${GreenBlue};
 `;
 
 const SubTitle = styled.h3`

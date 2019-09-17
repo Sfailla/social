@@ -5,7 +5,7 @@ const AppBarStyle = styled.div`
 	width: 100%;
 	height: 6rem;
 	color: black;
-	background-color: white;
+	background-color: lightgrey;
 `;
 
 const AppBar = () => {
