@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const BannerStyle = styled.div`
 	width: 100%;
-	height: calc(100% - 6rem);
+	height: calc(100% - 12rem);
 	background-color: #282c34;
 
 	display: flex;
