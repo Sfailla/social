@@ -6,6 +6,7 @@ export const MainBG = 'background-color: #282c34';
 export const GreenBlue = 'color: #00ffd0';
 
 export const Wrapper = styled.div`
+	padding: 0 1rem;
 	max-width: 1200px;
 	margin: 0 auto;
 `;
