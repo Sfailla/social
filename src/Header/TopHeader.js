@@ -12,7 +12,6 @@ const TopHeaderStyle = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0 1rem;
 `;
 
 const Title = styled.h2`
