@@ -21,9 +21,10 @@ const OptionStyles = styled.div`
 const Title = styled.h1`
 	color: #00ffd0;
 	font-size: 3rem;
-	letter-spacing: 2px;
+	letter-spacing: 3px;
+	padding: 0 2px;
 	transition: .4s ease-in-out;
-	background-color: rgba(0, 0, 0, .3);
+	background-color: rgba(0, 0, 0, .9);
 `;
 
 const OverlayStyles = styled.div`

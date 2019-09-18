@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 import LandingOptions from './LandingOptions';
 import { Wrapper } from '../Shared/Styles';
-import image from '../Images/friends.jpg';
+import friend_img from '../Images/friends.jpg';
+import blog_img from '../Images/blog.jpg';
 
 const LandingStyle = styled.div`
 	width: 100%;
@@ -15,6 +16,8 @@ const LandingStyle = styled.div`
 const Title = styled.h2`
 	color: black;
 	padding-bottom: 1rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	font-size: 2.2rem;
 	font-family: Do Hyeon;
 `;
@@ -31,8 +34,8 @@ const Landing = () => {
 			<Wrapper>
 				<Title>What would you like to do?</Title>
 				<LandingGrid>
-					<LandingOptions name="FRIENDS" backgroundIMG={image} />
-					<LandingOptions name="BLOG" />
+					<LandingOptions name="FRIENDS" backgroundIMG={friend_img} />
+					<LandingOptions name="BLOG" backgroundIMG={blog_img} />
 					<LandingOptions name="MESSAGES" />
 				</LandingGrid>
 			</Wrapper>
