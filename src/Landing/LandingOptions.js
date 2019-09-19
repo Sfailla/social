@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 
-import { BoxShadow } from '../Shared/Styles';
+import { BoxShadow, FlexCenter } from '../Shared/Styles';
 
 const OptionStyles = styled.div`
 	width: 100%;
@@ -16,6 +16,10 @@ const OptionStyles = styled.div`
 			background-repeat: no-repeat;
 			background-position: center center;
 		`};
+
+	@media (max-width: 76.25em) {
+		height: 300px;
+	}
 `;
 
 const Title = styled.h1`
@@ -37,12 +41,14 @@ const OverlayStyles = styled.div`
 		transparent 50%,
 		rgba(0, 0, 0, .5) 50%
 	);
-	background-size: 300%;
+	background-size: 305%;
 	transition: .5s ease-in-out;
 	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	${FlexCenter};
+
+	@media (max-width: 76.25em) {
+		height: 300px;
+	}
 
 	&:hover {
 		background-position: 100%;
