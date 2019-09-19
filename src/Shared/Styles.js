@@ -11,6 +11,16 @@ export const Wrapper = styled.div`
 	margin: 0 auto;
 `;
 
+export const LoadedFonts = styled.div`
+	@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Oxygen|Audiowide&display=swap');
+`;
+
+export const FlexCenter = `
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`;
+
 export const BoxShadow = {
 	sm: {
 		'box-shadow':

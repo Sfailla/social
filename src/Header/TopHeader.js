@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import NavLinks from './NavLinks';
 
 const TopHeaderStyle = styled.div`
-	@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Oxygen|Audiowide&display=swap');
 	width: 100%;
 	height: 6rem;
 	background-color: white;
