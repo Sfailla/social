@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <AppBar /> component 1`] = `
+"<styled.div>
+  <styled.h2>
+    Select an option below to get started!
+  </styled.h2>
+</styled.div>"
+`;
