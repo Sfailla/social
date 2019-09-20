@@ -10,7 +10,7 @@ const AppBarStyle = styled.div`
 	${FlexCenter};
 `;
 
-const Title = styled.h2`
+export const Title = styled.h2`
 	color: black;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -18,7 +18,7 @@ const Title = styled.h2`
 	font-family: Do Hyeon;
 `;
 
-const AppBar = () => {
+export const AppBar = () => {
 	return (
 		<AppBarStyle>
 			<Title>Select an option below to get started!</Title>

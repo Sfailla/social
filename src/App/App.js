@@ -5,15 +5,15 @@ import Header from '../Header/index';
 import Landing from '../Landing/index';
 import Footer from './Footer';
 
-const App = () => {
+export const App = () => {
 	return (
-		<Fragment>
+		<div>
 			<LoadedFonts>
 				<Header />
 				<Landing />
 				<Footer />
 			</LoadedFonts>
-		</Fragment>
+		</div>
 	);
 };
 

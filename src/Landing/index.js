@@ -21,7 +21,7 @@ const Landing = () => {
 				<LandingGrid>
 					<LandingOptions name="FRIENDS" backgroundIMG={friend_img} />
 					<LandingOptions name="BLOG" backgroundIMG={blog_img} />
-					<LandingOptions name="MESSAGES" />
+					<LandingOptions name="EVENTS" />
 				</LandingGrid>
 			</Wrapper>
 		</LandingStyle>
