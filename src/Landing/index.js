@@ -6,6 +6,7 @@ import LandingGrid from './LandingGrid';
 import { Wrapper } from '../Shared/Styles';
 import friend_img from '../Images/friends.jpg';
 import blog_img from '../Images/blog.jpg';
+import event_img from '../Images/events-1.jpeg';
 
 const LandingStyle = styled.div`
 	width: 100%;
@@ -21,7 +22,7 @@ const Landing = () => {
 				<LandingGrid>
 					<LandingOptions name="FRIENDS" backgroundIMG={friend_img} />
 					<LandingOptions name="BLOG" backgroundIMG={blog_img} />
-					<LandingOptions name="EVENTS" />
+					<LandingOptions name="EVENTS" backgroundIMG={event_img} />
 				</LandingGrid>
 			</Wrapper>
 		</LandingStyle>
