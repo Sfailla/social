@@ -3,7 +3,8 @@ import styled from 'styled-components';
 // const darkTheme = 'background-color: #333';
 
 export const MainBG = 'background-color: #282c34';
-export const GreenBlue = 'color: #00ffd0';
+export const GreenBlueText = 'color: #00ffd0';
+export const GreenBlue = '#00ffd0';
 
 export const Wrapper = styled.div`
 	padding: 0 1rem;

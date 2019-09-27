@@ -7,13 +7,13 @@ import Footer from './Footer';
 
 export const App = () => {
 	return (
-		<div>
+		<Fragment>
 			<LoadedFonts>
 				<Header />
 				<Landing />
 				<Footer />
 			</LoadedFonts>
-		</div>
+		</Fragment>
 	);
 };
 

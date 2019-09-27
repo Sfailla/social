@@ -27,7 +27,7 @@ const Title = styled.h1`
 	font-size: 3rem;
 	letter-spacing: 3px;
 	padding: 0 2px;
-	transition: .4s ease-in-out;
+	transition: .5s ease-in-out;
 	background-color: rgba(0, 0, 0, .9);
 `;
 
@@ -42,7 +42,7 @@ const OverlayStyles = styled.div`
 		rgba(0, 0, 0, .5) 50%
 	);
 	background-size: 305%;
-	transition: .5s ease-in-out;
+	transition: .6s ease-in-out;
 	position: relative;
 	${FlexCenter};
 
