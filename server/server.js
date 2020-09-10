@@ -1,3 +1,3 @@
 // Server File
 
-// need Express, BodyParser, Path, Helmet, Logger
+// need Express, BodyParser, Path, Helmet, cors
